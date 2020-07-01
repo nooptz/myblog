@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://nooptz.github.io</id>
     <title>NOP BLOG</title>
-    <updated>2020-07-01T18:08:20.491Z</updated>
+    <updated>2020-07-01T18:17:34.398Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://nooptz.github.io"/>
     <link rel="self" href="https://nooptz.github.io/atom.xml"/>
@@ -10,6 +10,52 @@
     <logo>https://nooptz.github.io/images/avatar.png</logo>
     <icon>https://nooptz.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, NOP BLOG</rights>
+    <entry>
+        <title type="html"><![CDATA[云南x2]]></title>
+        <id>https://nooptz.github.io/post/yun-nan-x2/</id>
+        <link href="https://nooptz.github.io/post/yun-nan-x2/">
+        </link>
+        <updated>2020-07-01T18:14:32.000Z</updated>
+        <content type="html"><![CDATA[<p>哈哈哈第二次来云南又是大好天气<br>
+这次我必不可能把储存卡丢了<br>
+上图：<br>
+<img src="https://nooptz.github.io/post-images/1593627358403.jpg" alt="" loading="lazy"><br>
+<img src="https://nooptz.github.io/post-images/1593627362376.jpg" alt="" loading="lazy"><br>
+<img src="https://nooptz.github.io/post-images/1593627364778.jpg" alt="" loading="lazy"><br>
+<img src="https://nooptz.github.io/post-images/1593627367370.jpg" alt="" loading="lazy"></p>
+<p>这个庚子年已过去快一半<br>
+希望我能马上遇到一个我喜欢的人，这样我能带她来云南看苍山洱海<br>
+给她拍美丽的照片啦！</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[四月喽]]></title>
+        <id>https://nooptz.github.io/post/si-yue-lou/</id>
+        <link href="https://nooptz.github.io/post/si-yue-lou/">
+        </link>
+        <updated>2020-04-16T18:11:07.000Z</updated>
+        <content type="html"><![CDATA[<p>一直忙工作，都没时间打理网站。<br>
+今天早上发现你把qq空间的情侣空间给取消了，我猜你应该是有新男友了把。<br>
+定好了4.29晚上去丽江的机票，打算去把年前丢失的照片补拍回来<br>
+下午去联通公司注销了手机号<br>
+注销前，打开了之前编辑好的短信，全删了</p>
+<p>写了:<br>
+祝你幸福</p>
+<p>发送。</p>
+<p>各相安好！</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[工作]]></title>
+        <id>https://nooptz.github.io/post/gong-zuo/</id>
+        <link href="https://nooptz.github.io/post/gong-zuo/">
+        </link>
+        <updated>2020-03-17T18:08:55.000Z</updated>
+        <content type="html"><![CDATA[<p>今天收到了面试通过的消息，很开心<br>
+晚上跟父母聊天，告诉他们，我考上了研究生但是不想读，想去工作<br>
+驻足畅谈很久，终于谈好了，马上做完护肤，开始睡觉。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[三月]]></title>
         <id>https://nooptz.github.io/post/san-yue/</id>
@@ -97,25 +143,6 @@
         <content type="html"><![CDATA[<p>终于拍到了好看的烟花<br>
 <img src="https://nooptz.github.io/post-images/1593625370646.jpg" alt="" loading="lazy"><br>
 <img src="https://nooptz.github.io/post-images/1593625373249.jpg" alt="" loading="lazy"></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[一别两宽 各相安好]]></title>
-        <id>https://nooptz.github.io/post/hello啊我新的生活/</id>
-        <link href="https://nooptz.github.io/post/hello啊我新的生活/">
-        </link>
-        <updated>2019-12-25T16:00:00.000Z</updated>
-        <content type="html"><![CDATA[<p>算算几个月前的分手的话，今天刚好是100天<br>
-昨天梦到她和我一起吃饭了，还是同一个苍蝇小馆<br>
-白天和好朋友出去玩了一天，当释放一下考试压力吧<br>
-网站也一直因为研究生考试没时间打理<br>
-今天就连同对你的感情也一起打理了吧<br>
-三年多的故事，别人听起来可怕<br>
-可删起来其实也只是鼠标轻轻一点罢了<br>
-过几天就元旦了，打算去云南转转，毕竟很早和你约好了<br>
-只是这趟云南行只有我一个人</p>
-<p>希望生活也能跟博客一样重新开始吧</p>
-<figure data-type="image" tabindex="1"><img src="https://nooptz.github.io/post-images/1593625193015.jpg" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
 </feed>

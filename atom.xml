@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://nooptz.github.io</id>
     <title>NOP BLOG</title>
-    <updated>2020-07-01T17:43:22.995Z</updated>
+    <updated>2020-07-01T17:52:15.917Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://nooptz.github.io"/>
     <link rel="self" href="https://nooptz.github.io/atom.xml"/>
@@ -11,12 +11,30 @@
     <icon>https://nooptz.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, NOP BLOG</rights>
     <entry>
+        <title type="html"><![CDATA[云南]]></title>
+        <id>https://nooptz.github.io/post/yun-nan/</id>
+        <link href="https://nooptz.github.io/post/yun-nan/">
+        </link>
+        <updated>2020-01-02T17:46:41.000Z</updated>
+        <content type="html"><![CDATA[<p>订机票之前担心云南会下雨<br>
+昨天到达的时候看到太阳心里还是挺高兴的<br>
+马不停蹄的到处拍拍拍<br>
+可能是一个人的原因吧，拍出来的照片都格外的好看<br>
+放几张修好的照片。<br>
+<img src="https://nooptz.github.io/post-images/1593625877809.jpg" alt="" loading="lazy"><br>
+<img src="https://nooptz.github.io/post-images/1593625882110.jpg" alt="" loading="lazy"><br>
+<img src="https://nooptz.github.io/post-images/1593625885878.jpg" alt="" loading="lazy"></p>
+<p>除了情侣多，没有任何缺点😂</p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[元旦]]></title>
         <id>https://nooptz.github.io/post/yuan-dan/</id>
         <link href="https://nooptz.github.io/post/yuan-dan/">
         </link>
         <updated>2019-12-31T17:41:52.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://nooptz.github.io/post-images/1593625370646.jpg" alt="" loading="lazy"><br>
+        <content type="html"><![CDATA[<p>终于拍到了好看的烟花<br>
+<img src="https://nooptz.github.io/post-images/1593625370646.jpg" alt="" loading="lazy"><br>
 <img src="https://nooptz.github.io/post-images/1593625373249.jpg" alt="" loading="lazy"></p>
 ]]></content>
     </entry>

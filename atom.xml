@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://nooptz.github.io</id>
     <title>NOP BLOG</title>
-    <updated>2020-07-01T17:41:35.764Z</updated>
+    <updated>2020-07-01T17:43:22.995Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://nooptz.github.io"/>
     <link rel="self" href="https://nooptz.github.io/atom.xml"/>
@@ -10,6 +10,16 @@
     <logo>https://nooptz.github.io/images/avatar.png</logo>
     <icon>https://nooptz.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, NOP BLOG</rights>
+    <entry>
+        <title type="html"><![CDATA[元旦]]></title>
+        <id>https://nooptz.github.io/post/yuan-dan/</id>
+        <link href="https://nooptz.github.io/post/yuan-dan/">
+        </link>
+        <updated>2019-12-31T17:41:52.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://nooptz.github.io/post-images/1593625370646.jpg" alt="" loading="lazy"><br>
+<img src="https://nooptz.github.io/post-images/1593625373249.jpg" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[一别两宽 各相安好]]></title>
         <id>https://nooptz.github.io/post/hello啊我新的生活/</id>

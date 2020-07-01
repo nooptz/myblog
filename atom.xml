@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://nooptz.github.io</id>
     <title>NOP BLOG</title>
-    <updated>2020-07-01T17:52:15.917Z</updated>
+    <updated>2020-07-01T18:08:20.491Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://nooptz.github.io"/>
     <link rel="self" href="https://nooptz.github.io/atom.xml"/>
@@ -10,6 +10,67 @@
     <logo>https://nooptz.github.io/images/avatar.png</logo>
     <icon>https://nooptz.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, NOP BLOG</rights>
+    <entry>
+        <title type="html"><![CDATA[三月]]></title>
+        <id>https://nooptz.github.io/post/san-yue/</id>
+        <link href="https://nooptz.github.io/post/san-yue/">
+        </link>
+        <updated>2020-02-29T18:05:41.000Z</updated>
+        <content type="html"><![CDATA[<p>研究生成绩出来啦，<br>
+327分，不枉费我一番努力<br>
+可是怎样也提不起来再去读书的兴趣，毕竟这是为你而做出的选择<br>
+考过了、过线了、我已经很知足啦~<br>
+过几天开始找工作喽</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[情人节]]></title>
+        <id>https://nooptz.github.io/post/qing-ren-jie/</id>
+        <link href="https://nooptz.github.io/post/qing-ren-jie/">
+        </link>
+        <updated>2020-02-13T18:03:33.000Z</updated>
+        <content type="html"><![CDATA[<p>一个人过尼玛情人节呢<br>
+想屁吃呢？<br>
+<img src="https://nooptz.github.io/post-images/1593626682197.jpg" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[二月]]></title>
+        <id>https://nooptz.github.io/post/er-yue/</id>
+        <link href="https://nooptz.github.io/post/er-yue/">
+        </link>
+        <updated>2020-02-04T18:00:30.000Z</updated>
+        <content type="html"><![CDATA[<p>偶尔找你要嘤嘤的照片，但你总是说没空或者不想拍<br>
+又或者我发现你的微信步数一直在变，但是没有回复我的微信<br>
+这样还不如互删好友呢，何必最后说因为嘤嘤而回归朋友</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[年中感想]]></title>
+        <id>https://nooptz.github.io/post/nian-zhong-gan-xiang/</id>
+        <link href="https://nooptz.github.io/post/nian-zhong-gan-xiang/">
+        </link>
+        <updated>2020-01-29T17:57:40.000Z</updated>
+        <content type="html"><![CDATA[<p>因为疫情导致很多我很期待的电影都没办法去电影院观看<br>
+开年都这样，不知道后面疫情会怎么发展<br>
+希望你一个人能保重身体<br>
+同时也希望我的研究生成绩不会太差</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[半年没见的嘤嘤]]></title>
+        <id>https://nooptz.github.io/post/ban-nian-mei-jian-de-ying-ying/</id>
+        <link href="https://nooptz.github.io/post/ban-nian-mei-jian-de-ying-ying/">
+        </link>
+        <updated>2020-01-14T17:54:09.000Z</updated>
+        <content type="html"><![CDATA[<p>从云南回来一直没有上网站更新<br>
+主要原因是我的储存卡在云南丢了<br>
+属实没有什么东西值得po上网站</p>
+<p>今天很突然的你发嘤嘤照片给我了<br>
+我的乖崽还是那么漂亮，可能我们以后能聊的也只有她了吧<br>
+<img src="https://nooptz.github.io/post-images/1593626183108.jpg" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[云南]]></title>
         <id>https://nooptz.github.io/post/yun-nan/</id>

@@ -1,432 +1,401 @@
+<!DOCTYPE html>
 <html>
   <head>
-    
-<meta charset="utf-8" >
+    <meta charset="utf-8" >
 
-<title>NOP BLOG</title>
-<meta name="description" content="嘻嘻嘿 嘻嘻嘿">
+<title>文章归档 | NOP BLOG</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://nooptz.github.io/favicon.ico?v=1593707602975">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="https://nooptz.github.io/favicon.ico?v=1593707885755">
 <link rel="stylesheet" href="https://nooptz.github.io/styles/main.css">
 
 
 
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
 
+    <meta name="description" content="嘻嘻嘿 嘻嘻嘿">
   </head>
   <body>
     <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://nooptz.github.io">
-        <img class="avatar" src="https://nooptz.github.io/images/avatar.png?v=1593707602975" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://nooptz.github.io">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://nooptz.github.io">
+        <img src="https://nooptz.github.io/images/avatar.png?v=1593707885755" class="site-logo">
         <h1 class="site-title">NOP BLOG</h1>
       </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
     </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
-  </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
+    <div>
       
         
-          <a href="/" class="menu purple-link">
+          <a href="/" class="site-nav">
             首页
           </a>
         
       
         
-          <a href="/archives" class="menu purple-link">
+          <a href="/archives" class="site-nav">
             日记
           </a>
         
       
         
-          <a href="/tags" class="menu purple-link">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="menu purple-link">
+          <a href="/post/about" class="site-nav">
             关于
           </a>
         
       
     </div>
   </div>
-</transition>
-
-
-        <div class="content-container">
-          
-          
-
-<div class="archives-container">
-  
-    <h2 class="year">2020</h2>
-    
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
       
-        <article class="post">
-          <a href="https://nooptz.github.io/post/mao-de-lou/">
-            <h2 class="post-title">
-              冇得喽
-              <small>2020-07-03</small>
-            </h2>
-          </a>
-        </article>
+        
       
-    
+        
       
-        <article class="post">
-          <a href="https://nooptz.github.io/post/ai/">
-            <h2 class="post-title">
-              唉
-              <small>2020-07-02</small>
-            </h2>
-          </a>
-        </article>
+        
       
-    
+        
       
-        <article class="post">
-          <a href="https://nooptz.github.io/post/di-san-ge-tong-xiao/">
-            <h2 class="post-title">
-              第三个通宵
-              <small>2020-07-01</small>
-            </h2>
-          </a>
-        </article>
+        
       
-    
-      
-        <article class="post">
-          <a href="https://nooptz.github.io/post/you-he-ta-liao-liao-yi-ge-tong-xiao/">
-            <h2 class="post-title">
-              又和她聊了一个通宵
-              <small>2020-06-29</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://nooptz.github.io/post/he-ta-liao-liao-yi-ge-tong-xiao/">
-            <h2 class="post-title">
-              和她聊了一个通宵
-              <small>2020-06-27</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://nooptz.github.io/post/gu-qi-yong-qi/">
-            <h2 class="post-title">
-              鼓起勇气
-              <small>2020-06-25</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://nooptz.github.io/post/liang-xi-zong-shi-ban-sui-zhao-yi-wai/">
-            <h2 class="post-title">
-              惊喜总是伴随着意外
-              <small>2020-06-23</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://nooptz.github.io/post/zong-gui-shi-yao-zuo-bu-cheng-peng-you-de/">
-            <h2 class="post-title">
-              总归是要做不成朋友的
-              <small>2020-06-22</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://nooptz.github.io/post/ta-tai-you-yi-si-liao/">
-            <h2 class="post-title">
-              她太有意思了
-              <small>2020-06-18</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://nooptz.github.io/post/cai-ji-san-ren-zu-wang-ba-shou-ci-wu-lian-sheng/">
-            <h2 class="post-title">
-              菜鸡三人组网吧首次五连胜
-              <small>2020-06-17</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://nooptz.github.io/post/liu-yue/">
-            <h2 class="post-title">
-              六月
-              <small>2020-06-10</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://nooptz.github.io/post/jiu-wei-de-yi-chang-ju-can/">
-            <h2 class="post-title">
-              久违的一场聚餐
-              <small>2020-05-21</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://nooptz.github.io/post/23-sui/">
-            <h2 class="post-title">
-              23岁
-              <small>2020-05-12</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://nooptz.github.io/post/yun-nan-x2/">
-            <h2 class="post-title">
-              云南x2
-              <small>2020-05-02</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://nooptz.github.io/post/si-yue-lou/">
-            <h2 class="post-title">
-              四月喽
-              <small>2020-04-17</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://nooptz.github.io/post/gong-zuo/">
-            <h2 class="post-title">
-              工作
-              <small>2020-03-18</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://nooptz.github.io/post/san-yue/">
-            <h2 class="post-title">
-              三月
-              <small>2020-03-01</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://nooptz.github.io/post/qing-ren-jie/">
-            <h2 class="post-title">
-              情人节
-              <small>2020-02-14</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://nooptz.github.io/post/er-yue/">
-            <h2 class="post-title">
-              二月
-              <small>2020-02-05</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://nooptz.github.io/post/nian-zhong-gan-xiang/">
-            <h2 class="post-title">
-              年中感想
-              <small>2020-01-30</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://nooptz.github.io/post/ban-nian-mei-jian-de-ying-ying/">
-            <h2 class="post-title">
-              半年没见的嘤嘤
-              <small>2020-01-15</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://nooptz.github.io/post/yun-nan/">
-            <h2 class="post-title">
-              云南
-              <small>2020-01-03</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://nooptz.github.io/post/yuan-dan/">
-            <h2 class="post-title">
-              元旦
-              <small>2020-01-01</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-    
-  
-    <h2 class="year">2019</h2>
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-        <article class="post">
-          <a href="https://nooptz.github.io/post/hello啊我新的生活/">
-            <h2 class="post-title">
-              一别两宽 各相安好
-              <small>2019-12-26</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-  
+    </div>
+    <div class="site-description">
+      嘻嘻嘿 嘻嘻嘿
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://www.世界上最美的仙女.cc" target="_blank"> nop</a> | <a class="rss" href="https://nooptz.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
 </div>
 
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          
+
+          <h2 class="archives-title">文章归档</h2>
+          <div class="archives-container">
+            
+              <h2 class="year" data-aos="fade-in" data-aos-delay="500">2020</h2>
+              
+                
+                  <article class="post">
+                    <a href="https://nooptz.github.io/post/mao-de-lou/">
+                      <h2 class="post-title">
+                        冇得喽
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://nooptz.github.io/post/ai/">
+                      <h2 class="post-title">
+                        唉
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://nooptz.github.io/post/di-san-ge-tong-xiao/">
+                      <h2 class="post-title">
+                        第三个通宵
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://nooptz.github.io/post/you-he-ta-liao-liao-yi-ge-tong-xiao/">
+                      <h2 class="post-title">
+                        又和她聊了一个通宵
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://nooptz.github.io/post/he-ta-liao-liao-yi-ge-tong-xiao/">
+                      <h2 class="post-title">
+                        和她聊了一个通宵
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://nooptz.github.io/post/gu-qi-yong-qi/">
+                      <h2 class="post-title">
+                        鼓起勇气
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://nooptz.github.io/post/liang-xi-zong-shi-ban-sui-zhao-yi-wai/">
+                      <h2 class="post-title">
+                        惊喜总是伴随着意外
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://nooptz.github.io/post/zong-gui-shi-yao-zuo-bu-cheng-peng-you-de/">
+                      <h2 class="post-title">
+                        总归是要做不成朋友的
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://nooptz.github.io/post/ta-tai-you-yi-si-liao/">
+                      <h2 class="post-title">
+                        她太有意思了
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://nooptz.github.io/post/cai-ji-san-ren-zu-wang-ba-shou-ci-wu-lian-sheng/">
+                      <h2 class="post-title">
+                        菜鸡三人组网吧首次五连胜
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://nooptz.github.io/post/liu-yue/">
+                      <h2 class="post-title">
+                        六月
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://nooptz.github.io/post/jiu-wei-de-yi-chang-ju-can/">
+                      <h2 class="post-title">
+                        久违的一场聚餐
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://nooptz.github.io/post/23-sui/">
+                      <h2 class="post-title">
+                        23岁
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://nooptz.github.io/post/yun-nan-x2/">
+                      <h2 class="post-title">
+                        云南x2
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://nooptz.github.io/post/si-yue-lou/">
+                      <h2 class="post-title">
+                        四月喽
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://nooptz.github.io/post/gong-zuo/">
+                      <h2 class="post-title">
+                        工作
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://nooptz.github.io/post/san-yue/">
+                      <h2 class="post-title">
+                        三月
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://nooptz.github.io/post/qing-ren-jie/">
+                      <h2 class="post-title">
+                        情人节
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://nooptz.github.io/post/er-yue/">
+                      <h2 class="post-title">
+                        二月
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://nooptz.github.io/post/nian-zhong-gan-xiang/">
+                      <h2 class="post-title">
+                        年中感想
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://nooptz.github.io/post/ban-nian-mei-jian-de-ying-ying/">
+                      <h2 class="post-title">
+                        半年没见的嘤嘤
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://nooptz.github.io/post/yun-nan/">
+                      <h2 class="post-title">
+                        云南
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://nooptz.github.io/post/yuan-dan/">
+                      <h2 class="post-title">
+                        元旦
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+              
+            
+              <h2 class="year" data-aos="fade-in" data-aos-delay="500">2019</h2>
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+                  <article class="post">
+                    <a href="https://nooptz.github.io/post/hello啊我新的生活/">
+                      <h2 class="post-title">
+                        一别两宽 各相安好
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+            
+          </div>
+
+          <div class="pagination-container">
+  
+  
+</div>
 
         </div>
-
-        <div class="site-footer">
-  <div class="slogan">嘻嘻嘿 嘻嘻嘿</div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-  Powered by <a href="https://www.世界上最美的仙女.cc" target="_blank"> nop</a> | <a class="rss" href="https://nooptz.github.io/atom.xml" target="_blank">RSS</a>
-</div>
-
-
       </div>
-      <script type="application/javascript">
+    </div>
 
-hljs.initHighlightingOnLoad()
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
 
 var app = new Vue({
   el: '#app',
@@ -440,6 +409,7 @@ var app = new Vue({
 
 
 
-    </div>
+
+
   </body>
 </html>

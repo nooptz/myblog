@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://nooptz.github.io</id>
     <title>NOP BLOG</title>
-    <updated>2020-07-01T19:32:53.007Z</updated>
+    <updated>2020-07-02T05:37:54.300Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://nooptz.github.io"/>
     <link rel="self" href="https://nooptz.github.io/atom.xml"/>
@@ -10,6 +10,17 @@
     <logo>https://nooptz.github.io/images/avatar.png</logo>
     <icon>https://nooptz.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, NOP BLOG</rights>
+    <entry>
+        <title type="html"><![CDATA[冇得喽]]></title>
+        <id>https://nooptz.github.io/post/mao-de-lou/</id>
+        <link href="https://nooptz.github.io/post/mao-de-lou/">
+        </link>
+        <updated>2020-07-02T05:33:35.000Z</updated>
+        <content type="html"><![CDATA[<p>语气和话锋都变了<br>
+我想大概是知道了<br>
+唉，还没开始就结束喽</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[唉]]></title>
         <id>https://nooptz.github.io/post/ai/</id>
@@ -150,15 +161,6 @@ https://www.xn--fhqxa00di35aspqnhuq4b593a.cc/<br>
 可惜没来得及要她的微信<br>
 当然我可能也不敢要，谁愿意加一个150斤的胖子呢？<br>
 还是先减肥吧。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[六月]]></title>
-        <id>https://nooptz.github.io/post/liu-yue/</id>
-        <link href="https://nooptz.github.io/post/liu-yue/">
-        </link>
-        <updated>2020-06-09T18:29:39.000Z</updated>
-        <content type="html"><![CDATA[<p>上完班就上网，别提多有意思了</p>
 ]]></content>
     </entry>
 </feed>
